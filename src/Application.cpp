@@ -9,7 +9,7 @@ Application::Application(const std::string &title, unsigned int width, unsigned 
     //auto window = sf::RenderWindow(sf::VideoMode({800u, 600u}), "CMake SFML Project");
     window.setFramerateLimit(144);
     // screen bounds
-    const auto BOUNDS = static_cast<sf::Vector2f>(window.getSize());
+    //const auto BOUNDS = static_cast<sf::Vector2f>(window.getSize());
 }
 
 Application::~Application()

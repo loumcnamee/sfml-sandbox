@@ -24,7 +24,7 @@ std::string to_string_with_presision(const T a_value, const int n = 1)
 int main()
 {
     //Application app("Balls", WIDTH, HEIGHT);
-    sf::RenderWindow window = sf::RenderWindow(sf::VideoMode({WIDTH, HEIGHT}), "Bouncing Ball");
+    sf::RenderWindow window = sf::RenderWindow(sf::VideoMode({WIDTH, HEIGHT}), "Bouncing Ball", sf::Style::Close);
     window.setFramerateLimit(600);
 
     
